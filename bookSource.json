@@ -452,5 +452,43 @@
     },
     "searchUrl": "/search?q={{key}}&page={{page}}",
     "weight": 0
+  },
+  {
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "Arcadia",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mai-net.net/",
+    "customOrder": 11,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": true,
+    "lastUpdateTime": 1670773455162,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "##<blockquote>([\\s\\S]+)</blockquote>##$1###"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.bgc",
+      "bookUrl": "tag.td.1@tag.a@href",
+      "kind": "tag.td.0@text",
+      "lastChapter": "tag.td.6@text",
+      "name": "tag.td.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.table@tag.tbody@tag.tr",
+      "chapterName": "tag.td.1@tag.a@text",
+      "chapterUrl": "tag.td.1@tag.a@href##([\\s\\S]+)#kiji##$1###",
+      "updateTime": "tag.td.3@text"
+    },
+    "searchUrl": "http://www.mai-net.net/bbs/sst/sst.php?act=search&page={{page}}&cate=all&words={{key}}",
+    "weight": 0
   }
 ]
