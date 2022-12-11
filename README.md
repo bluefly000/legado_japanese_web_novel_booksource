@@ -1,2 +1,4 @@
 # legado_japanese_web_novel_booksource
-小説家になろう，ノクターン，ハーメルン，カクヨム用のブックソース
+[Legado](https://github.com/gedoor/legado)の日本語Web小説用のブックソース
+
+小説家になろう，ノクターン，ハーメルン，カクヨムに対応
